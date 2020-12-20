@@ -1,0 +1,173 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#header{
+
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image:url("../images/elect.jpg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    object-fit: cover;
+}
+h1{
+    position: absolute;
+    top:45%;
+    left:10%;
+    right:75%;
+    bottom: 50%;
+    color:white;
+    display:flex;
+    text-shadow:  2px 4px #000000;
+    
+}
+p{
+    position:absolute;
+    top:52%;
+    left:70px;
+    right:75%;
+    bottom: 50%;
+    color:white;
+    padding:5px;
+}
+
+section{
+
+         height: 100vh;
+         width: 100%;
+         position: relative;
+         background-image: url("../images/calc.jpg");
+         opacity: 0.95;
+         background-attachment: fixed;
+
+}
+h4{
+     font-family: sans-serif;
+     color:white;
+     font-size: 15px;
+     position: absolute;
+     top:30%;
+     bottom: 10%;
+     left:15px;
+
+    
+}
+img{
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    bottom:25px; 
+    left:15px;
+   
+   
+}
+#head{
+      height: 15vh;
+    
+}
+h3{
+    padding:10px;
+    color:white;
+    position: absolute;
+    top:25%;
+    right:25%;
+    left:25%;
+    bottom:25%;
+    font-size: 1rem;
+    
+    
+}
+#ham{
+    position: absolute;
+    top:0%;
+    cursor: pointer;
+    right:0%;
+    color:white;
+    left:100%;
+    padding-left: 90%;
+    display:none;
+
+}
+span{
+        color:orange;
+}
+
+#main{
+    
+  color:white;
+  max-width: 60%;
+  max-height: 70vh;
+  position: relative;
+  padding:10%;
+  background-image: url("../images/cal.jpg");
+  object-fit: cover;
+  top:15%;
+  bottom: 0;
+  opacity: 0.95;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  
+}
+
+#imgbg{
+    position: absolute;
+     top:10px;
+      bottom: 10px;
+      max-width:100%;
+      min-height:50vh;
+       z-index: -1;
+       overflow: hidden;
+}
+h2{
+    font-size: large;
+}
+nav{
+
+    position: absolute;
+    font-weight: 1rem;
+    top:35%;
+    padding-left:10%;
+}
+nav ul a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    transition: 0.5s ease;
+    
+}
+@media  screen and (max-width:769px){
+    section #ham{
+        position: absolute;
+        top:0%;
+        cursor: pointer;
+        right:0%;
+        color:white;
+        left:100%;
+        padding-left: 90%;
+        display: inline-block;
+    
+    }
+    nav{
+
+        position: absolute;
+        font-weight: 1rem;
+        top:35%;
+        padding-left:10%;
+        display:none;
+    }
+    nav ul a{
+        text-decoration: none;
+        list-style: none;
+        color:white;
+        transition: 0.5s ease;
+        display:none;
+        
+    }
+
+}
